@@ -16,8 +16,8 @@ public class Main {
         //Circle
         Circle circle = new Circle(5);
         System.out.printf("Circle Diameter : %.1f\n",circle.getDiameter());
-        System.out.printf("Circle Diameter : %.3f\n",circle.getArea());
-        System.out.printf("Circle Diameter : %.3f\n",circle.getCircumference());
+        System.out.printf("Circle Area : %.3f\n",circle.getArea());
+        System.out.printf("Circle Circumference : %.3f\n",circle.getCircumference());
         //Triangle
         Triangle triangle= new Triangle(80,65);
         System.out.printf("Missing Angle = %.1f\n",triangle.getMissingAngle());
